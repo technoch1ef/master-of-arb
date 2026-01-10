@@ -1,0 +1,54 @@
+[launcher]
+task="onchain-bot"
+jvm_args=[
+    "-server",
+    "-Xmx8192m"
+]
+
+[notarb]
+acknowledge_terms_of_service=true
+
+[user]
+keypair_path="tools/keypair.txt"
+protect_keypair=true
+
+[[swap]]
+enabled=true
+mint="SOL"
+
+[token_accounts_checker]
+rpc_url="
+delay_seconds=8
+
+[blockhash_updater]
+enabled=false
+rpc_url=""
+delay_ms=400
+
+[nonce_updater]
+enable=false
+rpc_url=""
+delay_ms=400
+
+[market_loader]
+rpc_url=""
+
+[lookup_table_loader]
+rpc_url=""
+
+[transaction_executor]
+threads=0 
+
+[[markets_file]]
+enabled=true
+path="_markets.toml" # markets and lookups automatily generated, do not touch this
+update_seconds=3
+
+[[lookup_tables_file]]
+enabled=true
+path="_lookup_tables.txt" # markets and lookups automatily generated, do not touch this
+update_seconds=3
+
+[[nonce_pool]]
+id="nonce-primary"
+accounts = []

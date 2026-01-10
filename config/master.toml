@@ -1,0 +1,52 @@
+# notarb or smb configs are used as a seed
+notarb_config = "./config/notarb_config.toml" 
+smb_config = "./config/smb_config.toml"
+
+# location of your smb and notarb engines
+notarb_dir = "./engines/notarb"
+smb_dir = "./engines/smb"
+
+[copy]
+engine = "smb" # "smb" or "notarbv2"
+tracked_wallets = []
+pipeline_timeout_seconds = 10 # how long before pipeline considered inactive
+
+[assist]
+engine = "notarbv2" # only "notarbv2"
+lookups_file = "./config/lookups.toml"
+public_key = ""
+
+[[assist.token_tier]]
+id = "elite"
+min_priority_fee_lamports = 1000
+max_priority_fee_lamports = 5000
+min_spam_tip_lamports = 3_300_000
+max_spam_tip_lamports = 3_400_000
+
+[[assist.token_tier]]
+id = "high"
+min_priority_fee_lamports = 1000
+max_priority_fee_lamports = 3000
+min_spam_tip_lamports = 3_300_000
+max_spam_tip_lamports = 3_400_000
+
+[[assist.token_tier]]
+id = "medium"
+min_priority_fee_lamports = 0
+max_priority_fee_lamports = 1000
+min_spam_tip_lamports = 3_300_000
+max_spam_tip_lamports = 3_400_000
+
+[[assist.token_tier]]
+id = "low"
+min_priority_fee_lamports = 0
+max_priority_fee_lamports = 0
+min_spam_tip_lamports = 3_300_000
+max_spam_tip_lamports = 3_400_000
+
+[[assist.token_tier]]
+id = "rejected"
+min_priority_fee_lamports = 0
+max_priority_fee_lamports = 0
+min_spam_tip_lamports = 0
+max_spam_tip_lamports = 0

@@ -1,0 +1,46 @@
+[routing]
+
+[[routing.mint_config_list]]
+mint = ""
+pump_pool_list = []
+raydium_pool_list = []
+raydium_cp_pool_list = []
+raydium_clmm_pool_list = []
+whirlpool_pool_list = []
+meteora_dlmm_pool_list = []
+meteora_damm_pool_list = []
+meteora_dammv2_pool_list = []
+solfi_pool_list = []
+vertigo_pool_list = []
+heaven_pool_list = []
+lookup_table_accounts = []
+process_delay = 400
+
+[[routing.mint_config_list]]
+mint = ""
+pump_pool_list = []
+raydium_pool_list = []
+raydium_cp_pool_list = []
+raydium_clmm_pool_list = []
+whirlpool_pool_list = []
+meteora_dlmm_pool_list = []
+meteora_damm_pool_list = []
+meteora_dammv2_pool_list = []
+solfi_pool_list = []
+vertigo_pool_list = []
+heaven_pool_list = []
+lookup_table_accounts = []
+process_delay = 400
+
+[rpc]
+url = "https://solana-rpc.publicnode.com"
+
+[bot]
+compute_unit_limit = 500000
+merge_mints = true
+skip_ata_creation = false
+
+[flashloan]
+enabled = true
+
+[wallet]
