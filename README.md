@@ -14,7 +14,7 @@ master assist
 
 When opportunity found, the seed config `config/notarb_config.toml` will be used
 
-## Environment Variables
+### Environment Variables
 
 Environment located in `.env` file:
 ```sh
@@ -28,7 +28,7 @@ LICENSE_KEY= # valid license key to run the software
 JSON_RPC_URL= # RPC url to connect to the Solana network
 ```
 
-## Managing Lookups
+### Managing Lookups
 
 The arbitrage assist requires valid lookups to be available to perform otherwise `Transaction too large error` will be displayed.
 
@@ -63,7 +63,7 @@ master copy
 master copy --ui
 ```
 
-## Environment Variables
+### Environment Variables
 
 Environment located in `.env` file:
 ```sh
