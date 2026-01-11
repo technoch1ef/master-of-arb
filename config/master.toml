@@ -15,6 +15,7 @@ pipeline_timeout_seconds = 10 # how long before pipeline considered inactive
 engine = "notarbv2" # only "notarbv2"
 lookups_file = "./config/lookups.toml"
 public_key = ""
+arbitrage_discovery_seconds=180 # check latest tokens and pools every 3 minutes
 
 [[assist.token_tier]]
 id = "elite"
