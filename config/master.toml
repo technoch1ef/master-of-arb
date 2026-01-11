@@ -18,6 +18,7 @@ public_key = ""
 
 [[assist.token_tier]]
 id = "elite"
+score_threshold = 90.0
 min_priority_fee_lamports = 1000
 max_priority_fee_lamports = 5000
 min_spam_tip_lamports = 3_300_000
@@ -25,6 +26,7 @@ max_spam_tip_lamports = 3_400_000
 
 [[assist.token_tier]]
 id = "high"
+score_threshold = 80.0
 min_priority_fee_lamports = 1000
 max_priority_fee_lamports = 3000
 min_spam_tip_lamports = 3_300_000
@@ -32,6 +34,7 @@ max_spam_tip_lamports = 3_400_000
 
 [[assist.token_tier]]
 id = "medium"
+score_threshold = 70.0
 min_priority_fee_lamports = 0
 max_priority_fee_lamports = 1000
 min_spam_tip_lamports = 3_300_000
@@ -39,6 +42,7 @@ max_spam_tip_lamports = 3_400_000
 
 [[assist.token_tier]]
 id = "low"
+score_threshold = 60.0
 min_priority_fee_lamports = 0
 max_priority_fee_lamports = 0
 min_spam_tip_lamports = 3_300_000
@@ -46,6 +50,7 @@ max_spam_tip_lamports = 3_400_000
 
 [[assist.token_tier]]
 id = "rejected"
+score_threshold = 0.0
 min_priority_fee_lamports = 0
 max_priority_fee_lamports = 0
 min_spam_tip_lamports = 0
