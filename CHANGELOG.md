@@ -1,3 +1,10 @@
+# Master of Arb v0.1.7
+- Support copying notarb walelts that use up to four tokens.
+- Preparations for multi-hop instructions support.
+- Fixed an issue where three token instruction would cause incredibly high fees.
+- Fixed an issue with notarb copy engine, wher the fees would not be updated dynamically
+- Fixed an issue where the copy engine never starts again one the pipeline has been marked stale
+
 # Master of Arb v0.1.6
 - Switched some of the metrics like TX density to use the data from pools instead of tokens.
 - Reworked pool selection.
