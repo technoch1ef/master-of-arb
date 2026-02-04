@@ -1,3 +1,8 @@
+# Master of Arb v 0.2.2
+Fix the 5m volume on the token list. It should show compound volume in the pools
+Remove `--verbose` flag, filter pools by price change
+The `--ui` flag will be enabled by default
+
 # Master of Arb v 0.2.1
 - Fix the pump amm pool scanner
 - Increase the pool list
