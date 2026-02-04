@@ -1,3 +1,13 @@
+# Master of Arb v 0.2.1
+- Fix the pump amm pool scanner
+- Increase the pool list
+- Improve the performance of pool fetching
+- The Master Assist now requires `SHYFT_API_KEY` to be set
+
+# Master of Arb v 0.2.0
+- Introduce the UI for Assist, Copy & Monitor
+- Arbitrage assist manual mode, when you can select pools and run the selected engine manually
+
 # Master of Arb v0.1.7
 - Support copying notarb walelts that use up to four tokens.
 - Preparations for multi-hop instructions support.
