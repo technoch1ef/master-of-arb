@@ -1,24 +1,29 @@
+# Master of Arb v 0.2.3
+- It's no longer required to pass the fee config in `master.toml` to run the bot.
+- Renamed `min_spam_tip_lamports` and `max_spam_tip_lamports` to `min_vendor_tip_lamports` and `max_vendor_tip_lamports` respectively.
+- Add config for `min_jito_tip_lamports` and `max_jito_tip_lamports`
+
 # Master of Arb v 0.2.2
-Fix the 5m volume on the token list. It should show compound volume in the pools
-Remove `--verbose` flag, filter pools by price change
-The `--ui` flag will be enabled by default
+Fix the 5m volume on the token list. It should show compound volume in the pools.
+Remove `--verbose` flag, filter pools by price change.
+The `--ui` flag will be enabled by default.
 
 # Master of Arb v 0.2.1
-- Fix the pump amm pool scanner
-- Increase the pool list
-- Improve the performance of pool fetching
-- The Master Assist now requires `SHYFT_API_KEY` to be set
+- Fix the pump amm pool scanner.
+- Increase the pool list.
+- Improve the performance of pool fetching.
+- The Master Assist now requires `SHYFT_API_KEY` to be set.
 
 # Master of Arb v 0.2.0
-- Introduce the UI for Assist, Copy & Monitor
-- Arbitrage assist manual mode, when you can select pools and run the selected engine manually
+- Introduce the UI for Assist, Copy & Monitor.
+- Arbitrage assist manual mode, when you can select pools and run the selected engine manually.
 
 # Master of Arb v0.1.7
 - Support copying notarb walelts that use up to four tokens.
 - Preparations for multi-hop instructions support.
 - Fixed an issue where three token instruction would cause incredibly high fees.
-- Fixed an issue with notarb copy engine, wher the fees would not be updated dynamically
-- Fixed an issue where the copy engine never starts again one the pipeline has been marked stale
+- Fixed an issue with notarb copy engine, wher the fees would not be updated dynamically.
+- Fixed an issue where the copy engine never starts again one the pipeline has been marked stale.
 
 # Master of Arb v0.1.6
 - Switched some of the metrics like TX density to use the data from pools instead of tokens.
