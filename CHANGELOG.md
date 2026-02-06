@@ -1,3 +1,7 @@
+# Master of Arb v 0.2.4
+- Pre-filter pools wtih < $1000 liquidity using RPC. This reduces the stress for Geckoterimnal enrichment, allowing for fetching more pools
+- Increase the amount of pools found
+
 # Master of Arb v 0.2.3
 - It's no longer required to pass the fee config in `master.toml` to run the bot.
 - Renamed `min_spam_tip_lamports` and `max_spam_tip_lamports` to `min_vendor_tip_lamports` and `max_vendor_tip_lamports` respectively.
