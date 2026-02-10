@@ -1,6 +1,15 @@
+# Master of Arb 0.2.5
+- Fixed an issue where the highlighted pool index would pesist after selecting another token.
+- Fixed an issue where selected pools will linger after being removed by discovery cycle.
+- Fixed an issue where the monitor would crash if encountering missing accounts.
+- Fixed an issue where the engine would keep running after app suspended/terminated/crashed. ⚠️ SIGKILL will still leave orphaned process ⚠️
+- Added "Sender config" selection to engine controls.
+- The application now starts with a simple `master` command and then displays the options to select the mode.
+- UI improvements.
+
 # Master of Arb v 0.2.4
-- Pre-filter pools wtih < $1000 liquidity using RPC. This reduces the stress for Geckoterimnal enrichment, allowing for fetching more pools
-- Increase the amount of pools found
+- Pre-filter pools wtih < $1000 liquidity using RPC. This reduces the stress for Geckoterimnal enrichment, allowing for fetching more pools.
+- Increase the amount of pools found.
 
 # Master of Arb v 0.2.3
 - It's no longer required to pass the fee config in `master.toml` to run the bot.
@@ -30,7 +39,7 @@ The `--ui` flag will be enabled by default.
 - Fixed an issue where the copy engine never starts again one the pipeline has been marked stale.
 
 # Master of Arb v0.1.6
-- Switched some of the metrics like TX density to use the data from pools instead of tokens.
+- Switched some of the metrics like TX density to use the data from pools instead of token
 - Reworked pool selection.
 - Added a "US Oil Reserve" token mint to blacklist.
 - Fixed issue when some `raydium_amm_v4` pools were missing.
