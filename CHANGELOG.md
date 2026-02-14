@@ -1,3 +1,12 @@
+# Master of Arb 0.2.6
+- Manual controls for arbitrage mimic, you can select wallet and start/stop engine directly from TUI.
+- Fixed various crashes & errors during transactions parsing.
+- Fixed UI issues, remove unimplemented 5m data.
+- Fixed the issue where transactions window would show multiple tokens for a success transaction.
+- Fixed an issue where secondary fee recipient prevented from parsing transactions.
+- UI shows only last hour metrics. This is to better reflect the current market conditions.
+- Logs window is no longer selectable.
+
 # Master of Arb 0.2.5
 - Fixed an issue where the highlighted pool index would pesist after selecting another token.
 - Fixed an issue where selected pools will linger after being removed by discovery cycle.
