@@ -1,3 +1,20 @@
+# Master of Arb 1.0.0-rc.1
+- Added a "notarbv2native" engine, to send notarb instructions directly to the chain.
+- Added custom lookups management, lookups manager TUI.
+- Added a settings TUI. The app is fully configurable through the TUI, no additional file editing needed.
+- Added an ability to generate or import private key. This key is encrypted and the password stored in user's OS keychain.
+- Added an ability to filter arbitrage mimic wallets.
+- Added an ability to open solscan/circular/gmgn using "o" button.
+- Added pool details window for arbitrage discover.
+- Added an ability to send a single test transaction.
+- Added support for pancakeswap pools parsing & discovery.
+- Added tracking for pipelines that use secondary fees.
+- Increased the amount of discovered pools.
+- Removed the smb and notarb engines in favour of their native counterparts.
+- Removed licenses, added a fee of 3.75% on successful arbitrage transactions.
+- Removed Shyfy GQL Api in favour of Bitquery. This is a temporary solution until I find something that works better.
+- Fixed an issue where the highlighted token would change after discovery cycle.
+
 # Master of Arb 0.2.6
 - Manual controls for arbitrage mimic, you can select wallet and start/stop engine directly from TUI.
 - Fixed various crashes & errors during transactions parsing.
