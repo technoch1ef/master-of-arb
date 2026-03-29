@@ -1,3 +1,17 @@
+# Master of Arb 1.0.0-rc.2
+- Added tools TUI. The only option right now to wrap/unwrap wsol.
+- Added a setting for blockhash commitent.
+- Added a setting for compute unit limit.
+- Added support for a configurable account data size limit instruction.
+- Added a setting for Jito region selection.
+- Fixed a blockhash refresh mechanism, it uses a a confirmed commitment now.
+- Fixed cancellation token leak during discovery mechanism.
+- Added max jito tip and max spam tip to prevent runaway cost.
+- Fixed an issue with incorrect token program in some of the pools.
+- Fixed an issue with incorrect Raydium CLMM tick arrays.
+- Changed token scoring to be more tight.
+
+
 # Master of Arb 1.0.0-rc.1
 - Added a "notarbv2native" engine, to send notarb instructions directly to the chain.
 - Added custom lookups management, lookups manager TUI.
